@@ -1,4 +1,4 @@
-<script>
+
 (function(){
   /* =========================================================
      Core helpers / state
@@ -11,7 +11,7 @@
   // Global CFG
   window.CFG = {
     ENABLE_PREGAME_WHEEL: false,
-    CSV_URL: "https://cdn.prod.website-files.com/68e32480e91a304b261eee45/68ef23ee54fab999d8fd19ee_FOREPLAY%20-%20Sheet1%20(11).csv",
+    CSV_URL: "https://cdn.prod.website-files.com/68e32480e91a304b261eee45/68ed595d8b851ad95816d76e_FOREPLAY%20-%20Sheet1%20(10).csv",
     LEVEL_QUOTA: { "1":1, "2":1, "3":1, "4":1, "5":1, "6":1, "7":1, "8":1, "9":1, "10":1 , "11":1, "12":1, "13":1, "14":1},
     SLOT: { reelSize: 20, uniqueCards: 10, durationMs: 4000, settleMs: 400 },
     TIMER_END_SOUND: "https://cdn.prod.website-files.com/68e32480e91a304b261eee45/68e7d324046a90c13e9bf39d_challenge-over.mp3",
@@ -285,7 +285,7 @@
         'Give 1 Shot to Someone (45ml)',
         'Everyone: 1 Shot (45ml)',
         'You: 1 Shot (15ml)',
-        'Pick a Partner (1 Shot each: 15ml)',
+        'Pick a Partner (1 Shot each: 15ml))',
         'Spin Again',
         'You: 1 Shot (No Hands 30ml)',
         'Body Shot (you drink 30ml)',
@@ -888,8 +888,8 @@ function buildLevelPlan(){
   }, true);
 
 })();
-</script>
-<script>
+
+
 (function(){
   const ORIG_SHOW = window.showScreen;
   if (typeof ORIG_SHOW !== 'function') return;
@@ -917,4 +917,3 @@ function buildLevelPlan(){
     return res;
   };
 })();
-</script>
